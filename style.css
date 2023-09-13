@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.wrapper{
+  width: 661px;
+  padding-top: 62px;
+  padding-left: 77px;
+  padding-right: 84px;
+  padding-bottom: 72px;
+  background-color: #C4C4C4;
+  margin: 20px auto;
+}
+.inner{
+  width: 500px;
+  margin: 0px;
+}
+
+.input{
+  width: 500px;
+  height: 61px;
+  color: #000000;
+  font-size: 48px;
+  padding: 0px;
+  padding-left: 13px;
+  margin: 0px;
+  border: none;
+}
+.search-list{
+  list-style: none;
+  width: 500px;
+  margin: 0px;
+  margin-bottom: 45px;
+  padding: 0px;
+}
+.search-list__item{
+  cursor: pointer;
+  height: 44px;
+  background-color: #E3E3E3;
+  font-size: 30px;
+  padding-left: 13px;
+  padding-bottom: 9px;
+  border: 2px solid #000000;
+}
+
+.search-list__item:hover{
+  background-color: #65CDF9;
+}
+
+
+.result-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.result-list__item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #E27BEB;
+  border: 1px solid #000;
+}
+.about-repo{
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+}
+.close{
+  cursor: pointer;
+  width: 42px;
+  height: 39px;
+  border-radius: 2px;
+  background-image: url('Vector\ 6.png'),
+  url('Vector\ 8.png');
+  background-size: 100%;
+}
